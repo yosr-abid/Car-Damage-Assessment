@@ -21,6 +21,7 @@ This work is realised by:
 * Damaged parts segmentation
   To detect which parts of the car are damaged and identify the type of damage using YOLOv8, Mask R-CNN.
 
+* Models Deploiment using Streamlit
 
 
 ## Getting Started
@@ -31,3 +32,7 @@ This work is realised by:
    ```bash
    git clone https://github.com/your_username/Car-Damage-Assessment.git
 2. Download pre-trained  Models: https://drive.google.com/drive/folders/1BK-ErOYJ9Yf-p0zmUEE5L-8sswf0JKb2?usp=drive_link
+3. Make sure that the dependencies from reaquirements.txt are installed
+4. Run the web app use the following command: 
+   ```bash
+   streamlit run .\deepcv.py  
